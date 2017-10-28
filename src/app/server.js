@@ -13,18 +13,9 @@ app.server = app.listen(3000, function () {
   console.info('Server listening at http://%s:%s', host, port)
 })
 
-app.get('/', (req, res) => {
+app.get('/*', (req, res) => {
   res.render('app')
 })
-
-app.get('/timer', (req, res) => {
-  res.render('app')
-})
-
-app.get('/login', (req, res) => {
-  res.render('app')
-})
-
 
 app.use((req, res) => {
   console.info('[404] ' + req.path)

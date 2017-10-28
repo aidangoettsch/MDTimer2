@@ -9,7 +9,8 @@
         "modules": false,
         "browsers": [
           "> 1%",
-          "last 2 versions"
+          "last 2 versions of chrome",
+          "ie 11"
         ]
       }
     ],

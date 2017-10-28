@@ -5,6 +5,7 @@
   "main": "src/app.js",
   "dependencies": {
     "express": "latest",
+    "history": "^4.7.2",
     "material-ui": "^1.0.0-beta.16",
     "material-ui-icons": "^1.0.0-beta.15",
     "react": "^16.0.0",
@@ -13,6 +14,7 @@
     "react-redux": "^5.0.6",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
+    "react-router-redux": "^5.0.0-alpha.8",
     "redux": "^3.7.2",
     "vulcanize-loader": "^2.0.1"
   },
